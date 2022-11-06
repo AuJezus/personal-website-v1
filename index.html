@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AuJezus</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <a href="#"><img class="nav__logo" src="images/logo.png" alt="" /></a>
+      <a href="#" class="nav__toggler">
+        <span class="nav__bar"></span>
+        <span class="nav__bar"></span>
+        <span class="nav__bar"></span>
+      </a>
+      <ul class="list nav__list">
+        <li class="nav__item"><a href="#about_me">ABOUT ME</a></li>
+        <li class="nav__item"><a href="#skills">SKILLS</a></li>
+        <li class="nav__item"><a href="#work">WORK</a></li>
+        <li class="nav__item"><a href="#contacts">CONTACTS</a></li>
+        <li class="nav__item nav__item--special">
+          <a href="blog.html">BLOG ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="container block block--hero">
+      <section class="block--hero__text">
+        <h1 class="block--hero__title">
+          WEB<em>,</em> APP <em>&</em> GAME DEVELOPER
+        </h1>
+        <p class="block--hero__quote">
+          <em>“</em> Make it work make it right, make it fast. <em>”</em>
+        </p>
+      </section>
+      <img
+        src="images/code-thinking.svg"
+        alt="Person thinking, next to computer"
+        class="block--hero__image"
+      />
+    </section>
+
+    <section class="container block block--about" id="about_me">
+      <header class="block--about__header">
+        <h2>ABOUT</h2>
+        <img
+          src="images/floating-baloon.svg"
+          alt="Air balloon in the clouds"
+          class="block--about__image"
+        />
+      </header>
+      <section class="block--about__body">
+        <img
+          src="images/profile-picture.jpg"
+          alt="Photo of me"
+          class="block--about__pfp"
+        />
+        <section class="block--about__text">
+          <h3>Hi, I’m <em>Augustas</em>, nice to meet you!</h3>
+          <p>
+            I'm young guy from Lithuania who has a passion for programming from
+            age 14. As I am 18 now I started to really start putting in hard
+            work and learning actually useful things. I really enjoy the
+            challenge of programming, I always want to improve and gain all the
+            knowledge possible. Also I am quite friendly and funny, so don't be
+            afraid to contact me even for non-work reasons.
+          </p>
+          <img
+            src="images/man-walking.svg"
+            alt=""
+            class="block--about__text-image"
+          />
+        </section>
+      </section>
+    </section>
+
+    <section class="container block block--skills" id="skills">
+      <header class="block--skills__header">
+        <img
+          src="images/programming.svg"
+          alt=""
+          class="block--skills__header-image"
+        />
+        <section>
+          <h2>SKILLS</h2>
+          <p>Some skills I picked up over the years</p>
+        </section>
+        <img
+          src="images/man-in-front-of-pc.svg"
+          alt=""
+          class="block--skills__header-image"
+        />
+      </header>
+      <section class="grid grid--cols-3 block--skills__skill-container">
+        <div class="card card--primary skill">
+          <header class="skill__header">
+            <div class="skill__logo-container">
+              <img
+                src="images/phone-svgrepo-com.svg"
+                alt=""
+                class="skill__logo-image"
+              />
+            </div>
+            <h3>App Developer</h3>
+            <p>
+              I like to make purposeful apps for the small devices we carry
+              everywhere.
+            </p>
+          </header>
+          <div class="skill__body">
+            <section class="skill__text-section">
+              <p><em>Languages I speak:</em></p>
+              <p>C#, .NET MAUI, GIT</p>
+            </section>
+            <section class="skill__text-section">
+              <p><em>Dev Tools:</em></p>
+              <ul class="list">
+                <li>Visual studio</li>
+                <li>Azure</li>
+                <li>Github</li>
+              </ul>
+            </section>
+          </div>
+        </div>
+        <div class="card card--primary skill skill--best">
+          <header class="skill__header">
+            <div class="skill__logo-container">
+              <img
+                src="images/website-logo.svg"
+                alt=""
+                class="skill__logo-image"
+              />
+            </div>
+            <h3>Web Developer</h3>
+            <p>
+              I like to code things from scratch, and enjoy bringing ideas to
+              life in the browser.
+            </p>
+          </header>
+          <div class="skill__body">
+            <section class="skill__text-section">
+              <p><em>Languages I speak:</em></p>
+              <p>HTML, CSS, Sass, Git, C#, ASP.NET</p>
+            </section>
+            <section class="skill__text-section">
+              <p><em>Dev Tools:</em></p>
+              <ul class="list">
+                <li>Visual studio</li>
+                <li>Visual studio code</li>
+                <li>Bootstrap</li>
+                <li>Github</li>
+                <li>Terminal</li>
+              </ul>
+            </section>
+          </div>
+        </div>
+        <div class="card card--primary skill">
+          <header class="skill__header">
+            <div class="skill__logo-container">
+              <img
+                src="images/game-svgrepo-com.svg"
+                alt=""
+                class="skill__logo-image"
+              />
+            </div>
+            <h3>Game Developer</h3>
+            <p>
+              This is my hobby. I like to create stories, mechanics, art and mix
+              them up with code for a game cocktail.
+            </p>
+          </header>
+          <div class="skill__body">
+            <section class="skill__text-section">
+              <p><em>Languages I speak:</em></p>
+              <p>C#, C++</p>
+            </section>
+            <section class="skill__text-section">
+              <p><em>Dev Tools:</em></p>
+              <ul class="list">
+                <li>Visual studio</li>
+                <li>Github</li>
+                <li>Blender</li>
+                <li>FL Studio</li>
+                <li>Github</li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section class="container block--work" id="work">
+      <header class="block--work__header">
+        <h2>My Recent Work</h2>
+        <p>
+          Here are a few past projects I've worked on. Want to see more?
+          <a href="mailto:augustasv16@gmail.com"><em>Email me</em></a>
+        </p>
+      </header>
+      <div class="grid grid--cols-3 block--work__work-container">
+        <div class="card work">
+          <img src="images/work.png" alt="" class="work__image" />
+          <div class="work__content">
+            <p class="work__text">
+              This will be a brief description of my work. Still working on it,
+              so it's empty for the moment.
+            </p>
+            <button class="btn btn--accent work__btn">Visit now!</button>
+          </div>
+        </div>
+
+        <div class="card work">
+          <img src="images/work.png" alt="" class="work__image" />
+          <div class="work__content">
+            <p class="work__text">
+              This will be a brief description of my work. Still working on it,
+              so it's empty for the moment.
+            </p>
+            <button class="btn btn--accent work__btn">Visit now!</button>
+          </div>
+        </div>
+
+        <div class="card work">
+          <img src="images/work.png" alt="" class="work__image" />
+          <div class="work__content">
+            <p class="work__text">
+              This will be a brief description of my work. Still working on it,
+              so it's empty for the moment.
+            </p>
+            <button class="btn btn--accent work__btn">Visit now!</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container grid grid--cols-3 discuss">
+      <h2>Get started</h2>
+      <span class="discuss__text"
+        >Interested in working together? We should talk about your project,
+        please contact me for further discussion.</span
+      >
+      <a
+        class="btn btn--accent discuss__btn"
+        href="mailto:augustasv16@gmail.com"
+        >Let's do this</a
+      >
+    </section>
+
+    <footer class="footer">
+      <img src="images/logo.png" alt="" class="footer__logo" />
+      <p class="footer__quote">
+        <em>“</em>Living, learning, <em>&</em> leveling up one day at a time.<em
+          >”</em
+        >
+      </p>
+      <section class="footer__social--container" id="contacts">
+        <a
+          class="icon icon--primary"
+          href="https://www.instagram.com/augustas_wa/"
+          target="_blank"
+        >
+          <img src="images/instagram.svg" alt="" class="icon__image" />
+        </a>
+        <a
+          class="icon icon--primary"
+          href="https://www.upwork.com/freelancers/~01c8ac77e964ca067b"
+          target="_blank"
+        >
+          <img src="images/upwork.svg" alt="" class="icon__image" />
+        </a>
+        <a
+          class="icon icon--primary"
+          href="https://lt.linkedin.com"
+          target="_blank"
+        >
+          <img src="images/linkedin.svg" alt="" class="icon__image" />
+        </a>
+        <a
+          class="icon icon--primary"
+          href="https://github.com/AuJezus"
+          target="_blank"
+        >
+          <img src="images/github.svg" alt="" class="icon__image" />
+        </a>
+      </section>
+      <span class="footer__copyr">Handcrafted by me <em>©AuJezus</em></span>
+    </footer>
+
+    <script src="js/expand.js"></script>
+  </body>
+</html>
